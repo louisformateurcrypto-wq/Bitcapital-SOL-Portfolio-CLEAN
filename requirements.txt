@@ -1,0 +1,8 @@
+requests
+pandas
+numpy
+matplotlib
+mplfinance
+openpyxl
+python-dotenv
+email-validator

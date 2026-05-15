@@ -1,0 +1,36 @@
+{
+    "ANALYSIS_FREQUENCY": "daily",
+    "CRYPTO": "SOL",
+    "CURRENCY": "USD",
+    "FETCH_LIMIT": 2000,
+    "INCLUDE_VOLUME": true,
+    "INCLUDE_SIGNAL_RSI": true,
+    "RSI_PERIOD": 14,
+    "SMA_ON_RSI_PERIOD": 14,
+    "SMA_CLOSE_PERIOD": 9,
+    "DISPLAY_PERFORMANCE": false,
+    "BENCH": {
+        "RSI": true
+    },
+    "FILE": {
+        "DAILY_CSV": "crypto_data_daily.csv",
+        "WEEKLY_CSV": "crypto_data_weekly.csv",
+        "DAILY_EXCEL": "crypto_data_daily.xlsx",
+        "WEEKLY_EXCEL": "crypto_data_weekly.xlsx"
+    },
+    "GRAPH_SETTING": {
+        "START_DATE": "2024-01-01",
+        "GRAPH_SAMPLING_STEP": 2,
+        "RSI": "orange",
+        "SMA_RSI": "red"
+    },
+    "URL_MAP": {
+        "hourly": "https://min-api.cryptocompare.com/data/v2/histohour",
+        "daily": "https://min-api.cryptocompare.com/data/v2/histoday",
+        "weekly": "https://min-api.cryptocompare.com/data/v2/histoday"
+    },
+    "EMAIL": {
+        "ENABLED": true,
+        "EXPORT": true
+    }
+}
