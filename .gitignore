@@ -1,0 +1,21 @@
+# Credentials & secrets
+config.env
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Generated outputs
+*.log
+crypto_data_*.csv
+crypto_data_*.xlsx
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
